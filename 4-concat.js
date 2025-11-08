@@ -1,4 +1,4 @@
-const first = prompt("Enter the first argument:");
-const second = prompt("Enter the second argument:");
+const firstArg = prompt("Enter the first argument:");
+const secondArg = prompt("Enter the second argument:");
 
-console.log(`${first} is ${second}`);
+console.log(`${firstArg} is ${secondArg}`);
