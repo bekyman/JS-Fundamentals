@@ -1,4 +1,4 @@
-const firstArg = prompt("Enter the first argument:");
-const secondArg = prompt("Enter the second argument:");
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
 
 console.log(`${firstArg} is ${secondArg}`);
