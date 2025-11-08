@@ -1,7 +1,4 @@
-const arg = process.argv[2];
+const first = prompt("Enter the first argument:");
+const second = prompt("Enter the second argument:");
 
-if (arg) {
-  console.log(arg);
-} else {
-  console.log("No argument");
-}
+console.log(`${first} is ${second}`);
